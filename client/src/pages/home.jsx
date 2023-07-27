@@ -68,6 +68,10 @@ const home = () => {
   
     return (
     <section className='max-w-7xl mx-auto'>
+        <br />
+        <br />
+        <br />
+        <br />
         <div>
             <h1 className='style-text font-extrabold
             text-[32px]'>The Community Showcase</h1>
@@ -79,7 +83,8 @@ const home = () => {
         <br></br>
         <br></br>
         <br></br>
-        <span className='bold text-white'>SEARCH POSTS</span>
+        
+        <span className='font-extrabold text-white text-[22px]'>SEARCH POSTS</span>
         <div className='mt-1'>
              <FormField 
             

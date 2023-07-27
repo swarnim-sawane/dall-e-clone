@@ -6,6 +6,34 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,36,105,1) 53%, rgb
 }
 
 
+/* ---------------header------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  z-index: 1;
+
+  backdrop-filter: blur(10px);
+}
+
+/* ---------------centering------------------- */
+.centered {
+  height: 1vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
